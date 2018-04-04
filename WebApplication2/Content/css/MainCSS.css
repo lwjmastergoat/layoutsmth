@@ -1,0 +1,98 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin:5px 0px;
+    padding:0;
+    /* Set the hr color */
+    color: #000; /* old IE */
+    background-color: #000; /* Modern Browsers */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table th {
+        text-align: left;
+        background-color: #3a6070 !important;
+        color: #FFF;
+        padding: 4px 30px 4px 8px;
+    }
+
+    table td {
+        border: 1px solid #3e3e3e;
+        padding: 4px 8px;
+    }
+
+    table tr:nth-child(2n) td {
+        background-color: #e7e7e7
+    }
+
+/* LOGIN PAGE START */
+
+.login-page-input {
+    padding: 10px 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.login-page-image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login-page-button {
+    width: 90%;
+    margin-bottom:5px;
+    color:#000000;
+    font-weight: 600;
+    background-color: #ff6a00;
+}
+
+/* LOGIN PAGE END */
+
+
+/* PROGRAMS PAGE START */
+
+.programs-page-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.programs-page-h4 {
+    display: inline-block;
+}
+
+.programs-page-links   {
+    text-decoration:none;
+    list-style:none;
+    color: #000;
+}
+
+.programs-page-links:hover {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.iright {
+    float: right;
+    margin-right: 10px;
+    font-size: 25px;
+}
+/* PROGRAMS PAGE END */
+
+
+/* SESSION LIST PAGE START */
+.session-page-list {
+
+}
+
+/* SESSION LIST PAGE END */
